@@ -1,0 +1,84 @@
+document {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #202632;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #313a49;
+  border-radius: 30px;
+  max-width: 500px;
+  min-width: 120px;
+  margin: auto;
+  margin-top: 50%;
+  text-align: center;
+}
+
+#quote {
+  color: hsl(193, 38%, 86%);
+  font: 28px "Manrope";
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#advice {
+  margin: auto;
+  margin-top: 10%;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 3px;
+  font-family: "Manrope";
+  text-transform: uppercase;
+}
+
+#horizontal-line {
+  width: 90%;
+}
+
+.dice-roll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #53ffab;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  z-index: 2;
+  position: relative;
+  bottom: -40px;
+  border: none;
+}
+
+.dice-roll-container:hover {
+  background: hsl(150, 100%, 66%);
+  box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #card {
+    margin: auto;
+    margin-top: 25%;
+    width: 90%;
+  }
+}/*# sourceMappingURL=styles.css.map */
